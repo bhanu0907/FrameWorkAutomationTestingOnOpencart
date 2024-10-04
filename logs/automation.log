@@ -1,209 +1,253 @@
-2024-10-02 03:52:42 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\crossbrowsertesting.xml
+2024-10-04 13:55:11 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
 
-2024-10-02 03:52:46 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 03:52:48 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 03:52:48 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 03:52:48 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 03:52:51 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 03:52:52 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 03:52:52 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
-2024-10-02 03:52:52 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
-2024-10-02 03:52:53 INFO  TC001_AccountRegistrationTest:60 - Validating Expected Message..
-2024-10-02 03:52:53 ERROR TC001_AccountRegistrationTest:70 - Test Failedelement not interactable
-  (Session info: chrome=129.0.6668.72)
-Build info: version: '4.22.0', revision: 'c5f3146703*'
+2024-10-04 13:55:16 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
+2024-10-04 13:55:16 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
+2024-10-04 13:55:17 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
+2024-10-04 13:55:17 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
+2024-10-04 13:55:18 INFO  TC001_AccountRegistrationTest:60 - Validating Expected Message..
+2024-10-04 13:55:18 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
+2024-10-04 14:12:16 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:13:28 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:13:29 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
+2024-10-04 14:13:29 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
+2024-10-04 14:13:30 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
+2024-10-04 14:13:30 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
+2024-10-04 14:13:32 INFO  TC001_AccountRegistrationTest:60 - Validating Expected Message..
+2024-10-04 14:13:32 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
+2024-10-04 14:13:33 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
+2024-10-04 14:13:33 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
+2024-10-04 14:13:34 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
+2024-10-04 14:13:34 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
+2024-10-04 14:13:35 INFO  TC001_AccountRegistrationTest:60 - Validating Expected Message..
+2024-10-04 14:13:36 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:13:36 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
+2024-10-04 14:13:37 ERROR TC004_AddProductToWishList:42 - Test FailedKeys to send should be a not null CharSequence
+2024-10-04 14:13:37 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:13:39 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:13:41 ERROR TC004_AddProductToWishList:42 - Test FailedKeys to send should be a not null CharSequence
+2024-10-04 14:13:41 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:14:27 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:14:31 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:14:33 ERROR TC004_AddProductToWishList:42 - Test FailedKeys to send should be a not null CharSequence
+2024-10-04 14:14:33 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:15:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:15:54 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:15:56 ERROR TC004_AddProductToWishList:42 - Test Failedinvalid selector
+from javascript error: {"status":32,"value":"The result of the xpath expression \"//*[@id=\"product-search\"]/div[1]/text()[1]\" is: [object Text]. It should be an element."}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b637328bcdf5182937395c166de63da8, clickElement {id=f.0CBBC86456D3FBE7322BB85438CB6C19.d.B873A31E8F1EFF9384CFB5410ACAC393.e.56}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.72, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52301/devtoo..., se:cdpVersion: 129.0.6668.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b637328bcdf5182937395c166de63da8)] -> xpath: //div[@id="top-links"]/ul/li[2] //li[1]/a]
-Session ID: b637328bcdf5182937395c166de63da8
-2024-10-02 03:52:53 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 03:52:54 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 03:52:58 ERROR TC001_AccountRegistrationTest:70 - Test Failedelement not interactable
-  (Session info: chrome=129.0.6668.72)
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b637328bcdf5182937395c166de63da8, clickElement {id=f.0CBBC86456D3FBE7322BB85438CB6C19.d.B873A31E8F1EFF9384CFB5410ACAC393.e.56}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.72, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52301/devtoo..., se:cdpVersion: 129.0.6668.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b637328bcdf5182937395c166de63da8)] -> xpath: //div[@id="top-links"]/ul/li[2] //li[1]/a]
-Session ID: b637328bcdf5182937395c166de63da8
-2024-10-02 03:52:58 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 03:54:13 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\crossbrowsertesting.xml
+Command: [299fd3ba96f1ea1c8d286d06330a840b, findElement {using=xpath, value=//*[@id="product-search"]/div[1]/text()[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64136}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64136/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 299fd3ba96f1ea1c8d286d06330a840b
+2024-10-04 14:15:56 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:26:12 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
 
-2024-10-02 03:54:18 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 03:54:20 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 03:54:20 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 03:54:21 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
-2024-10-02 03:54:21 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
-2024-10-02 03:54:22 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 03:54:27 ERROR TC001_AccountRegistrationTest:70 - Test FailedUnable to locate element: //input[@id='input-firstname']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [b2e3caed-5c04-41f0-b29a-a391b50e8d56, findElement {value=//input[@id='input-firstname'], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:debuggerAddress: 127.0.0.1:10710, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14444, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10710/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: b2e3caed-5c04-41f0-b29a-a391b50e8d56
-2024-10-02 03:54:27 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 03:54:27 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 03:54:27 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 03:54:29 ERROR TC001_AccountRegistrationTest:70 - Test FailedElement <a href="https://tutorialsninja.com/demo/index.php?route=account/register"> could not be scrolled into view
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [b2e3caed-5c04-41f0-b29a-a391b50e8d56, clickElement {id=9579354b-a3aa-409c-9e92-1e2fbb3eb1bb}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:debuggerAddress: 127.0.0.1:10710, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14444, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10710/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (b2e3caed-5c04-41f0-b29a-a391b50e8d56)] -> xpath: //div[@id="top-links"]/ul/li[2] //li[1]/a]
-Session ID: b2e3caed-5c04-41f0-b29a-a391b50e8d56
-2024-10-02 03:54:29 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 03:54:29 ERROR TC001_AccountRegistrationTest:70 - Test FailedElement <a href="https://tutorialsninja.com/demo/index.php?route=account/register"> could not be scrolled into view
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [b2e3caed-5c04-41f0-b29a-a391b50e8d56, clickElement {id=9579354b-a3aa-409c-9e92-1e2fbb3eb1bb}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:debuggerAddress: 127.0.0.1:10710, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14444, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10710/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (b2e3caed-5c04-41f0-b29a-a391b50e8d56)] -> xpath: //div[@id="top-links"]/ul/li[2] //li[1]/a]
-Session ID: b2e3caed-5c04-41f0-b29a-a391b50e8d56
-2024-10-02 03:54:29 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 04:01:27 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\crossbrowsertesting.xml
-
-2024-10-02 04:01:32 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 04:01:33 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 04:01:34 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
-2024-10-02 04:01:34 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
-2024-10-02 04:01:35 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 04:01:38 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 04:01:39 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 04:01:39 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
-2024-10-02 04:01:39 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
-2024-10-02 04:01:40 INFO  TC001_AccountRegistrationTest:60 - Validating Expected Message..
-2024-10-02 04:01:40 ERROR TC001_AccountRegistrationTest:70 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-firstname']"}
-  (Session info: MicrosoftEdge=129.0.2792.65)
+2024-10-04 14:26:16 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:26:23 ERROR TC004_AddProductToWishList:42 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-search"]/div[1]/a[2]"}
+  (Session info: chrome=129.0.6668.90)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [676f93c05376ef4fc41c44a466e6036c, findElement {using=xpath, value=//input[@id='input-firstname']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.65, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52823}, msedge: {msedgedriverVersion: 129.0.2792.65 (7eae50a1bc8e..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52823/devtoo..., se:cdpVersion: 129.0.2792.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 676f93c05376ef4fc41c44a466e6036c
-2024-10-02 04:01:40 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 04:01:40 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 04:01:41 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 04:01:42 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
-2024-10-02 04:01:42 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
-2024-10-02 04:01:43 ERROR TC001_AccountRegistrationTest:70 - Test FailedError communicating with the remote browser. It may have died.
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b63ac56294e3c095a65798eb4c759deb, findElement {value=//*[@id="product-search"]/div[1]/a[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64448}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64448/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b63ac56294e3c095a65798eb4c759deb
+2024-10-04 14:26:23 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:28:16 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:28:20 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:28:27 ERROR TC004_AddProductToWishList:42 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-search"]/div[1]/a[2]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ce756b08-5f28-4ef1-8782-7ab1ef5d97ee, findElement [using, value]]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:debuggerAddress: 127.0.0.1:3813, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13236, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:3813/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-2024-10-02 04:01:43 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 04:05:13 INFO  Utils:112 - [TestNG] Running:
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6717f85d3f1835d370565cc4e0ace493, findElement {value=//*[@id="product-search"]/div[1]/a[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64527}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64527/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6717f85d3f1835d370565cc4e0ace493
+2024-10-04 14:28:27 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:30:35 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
 
-2024-10-02 04:05:17 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 04:05:17 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 04:05:18 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
-2024-10-02 04:05:18 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
-2024-10-02 04:05:20 INFO  TC001_AccountRegistrationTest:60 - Validating Expected Message..
-2024-10-02 04:05:20 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 04:05:59 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
-
-2024-10-02 04:09:27 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
-
-2024-10-02 04:14:41 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\grouping.xml
-
-2024-10-02 04:22:49 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
-
-2024-10-02 04:23:45 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
-
-2024-10-02 04:38:16 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
-
-2024-10-02 04:38:20 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 04:38:20 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 04:38:21 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
-2024-10-02 04:38:21 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
-2024-10-02 04:38:22 INFO  TC001_AccountRegistrationTest:60 - Validating Expected Message..
-2024-10-02 04:38:22 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 04:38:53 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
-
-2024-10-02 04:38:58 INFO  TC002_LoginTest:17 - ====Starting TC002_LoginTest====
-2024-10-02 04:39:00 INFO  TC002_LoginTest:52 - TC002_LoginTest is Execuited!!!
-2024-10-02 04:39:31 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
-
-2024-10-02 04:47:22 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\crossbrowsertesting.xml
-
-2024-10-02 04:47:30 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 04:47:32 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 04:47:33 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 04:47:33 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 04:47:33 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 04:47:34 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 04:47:35 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
-2024-10-02 04:47:35 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
-2024-10-02 04:47:35 ERROR TC001_AccountRegistrationTest:70 - Test FailedThe element with the reference 51728258-24eb-4269-bc89-4e09479315ef is stale; either its node document is not the active document, or it is no longer connected to the DOM
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2024-10-04 14:30:39 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:30:47 ERROR TC004_AddProductToWishList:43 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-search"]/div[1]/a[2]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8f245a4c-54ab-4629-9bea-3b1c1de02f2c, clickElement {id=51728258-24eb-4269-bc89-4e09479315ef}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:debuggerAddress: 127.0.0.1:27484, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21300, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:27484/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (8f245a4c-54ab-4629-9bea-3b1c1de02f2c)] -> xpath: //div[@id="top-links"]/ul/li[2] //li[1]/a]
-Session ID: 8f245a4c-54ab-4629-9bea-3b1c1de02f2c
-2024-10-02 04:47:35 ERROR TC001_AccountRegistrationTest:70 - Test FailedThe element with the reference 51728258-24eb-4269-bc89-4e09479315ef is stale; either its node document is not the active document, or it is no longer connected to the DOM
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2a89505942cfb5a1b351a0572893640, findElement {value=//*[@id="product-search"]/div[1]/a[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64616}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64616/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2a89505942cfb5a1b351a0572893640
+2024-10-04 14:30:47 INFO  TC004_AddProductToWishList:48 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:31:57 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:32:01 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:32:08 ERROR TC004_AddProductToWishList:43 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-search"]/div[1]/a[2]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8f245a4c-54ab-4629-9bea-3b1c1de02f2c, clickElement {id=51728258-24eb-4269-bc89-4e09479315ef}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:debuggerAddress: 127.0.0.1:27484, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21300, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:27484/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (8f245a4c-54ab-4629-9bea-3b1c1de02f2c)] -> xpath: //div[@id="top-links"]/ul/li[2] //li[1]/a]
-Session ID: 8f245a4c-54ab-4629-9bea-3b1c1de02f2c
-2024-10-02 04:47:35 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 04:47:35 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 04:47:39 ERROR TC001_AccountRegistrationTest:70 - Test FailedTried to run command without establishing a connection
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [37c08a3ed257abf348fd87db38fd6a06, findElement {value=//*[@id="product-search"]/div[1]/a[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64677/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37c08a3ed257abf348fd87db38fd6a06
+2024-10-04 14:32:08 INFO  TC004_AddProductToWishList:48 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:33:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:33:48 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:33:55 ERROR TC004_AddProductToWishList:43 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-search"]/div[1]/a[2]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8f245a4c-54ab-4629-9bea-3b1c1de02f2c, findElement {value=//*[@id="content"]/form/div/div/input[2], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:debuggerAddress: 127.0.0.1:27484, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21300, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:27484/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8f245a4c-54ab-4629-9bea-3b1c1de02f2c
-2024-10-02 04:47:39 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 06:31:48 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 06:31:48 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 06:31:49 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
-2024-10-02 06:31:49 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
-2024-10-02 06:31:51 INFO  TC001_AccountRegistrationTest:60 - Validating Expected Message..
-2024-10-02 06:31:51 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 09:08:46 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 09:08:46 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 09:08:47 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
-2024-10-02 09:08:47 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
-2024-10-02 09:08:48 INFO  TC001_AccountRegistrationTest:60 - Validating Expected Message..
-2024-10-02 09:08:48 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 09:09:25 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 09:09:25 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 09:09:26 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
-2024-10-02 09:09:26 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
-2024-10-02 09:09:27 INFO  TC001_AccountRegistrationTest:60 - Validating Expected Message..
-2024-10-02 09:09:27 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
-2024-10-02 09:18:33 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
-2024-10-02 09:18:33 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
-2024-10-02 09:18:34 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
-2024-10-02 09:18:34 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
-2024-10-02 09:18:35 INFO  TC001_AccountRegistrationTest:60 - Validating Expected Message..
-2024-10-02 09:18:35 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4ecf6e40d95be588449f6bf007da5401, findElement {using=xpath, value=//*[@id="product-search"]/div[1]/a[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64748}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64748/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ecf6e40d95be588449f6bf007da5401
+2024-10-04 14:33:55 INFO  TC004_AddProductToWishList:48 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:35:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:35:44 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:35:52 ERROR TC004_AddProductToWishList:42 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-search"]/div[1]/a[2]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [255792bb81eb67de6d7fe5503361bac3, findElement {value=//*[@id="product-search"]/div[1]/a[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64822}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64822/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 255792bb81eb67de6d7fe5503361bac3
+2024-10-04 14:35:52 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:41:23 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:41:27 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:41:35 ERROR TC004_AddProductToWishList:42 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-search"]/div[1]/a[2]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb7a72da8a52632d0dd4ecc8302c8a4d, findElement {using=xpath, value=//*[@id="product-search"]/div[1]/a[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65015/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb7a72da8a52632d0dd4ecc8302c8a4d
+2024-10-04 14:41:35 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:42:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:42:55 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:43:03 ERROR TC004_AddProductToWishList:42 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-search"]/div[1]/a[2]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e2a73bf04a800f0ad3e019294961da8, findElement {using=xpath, value=//*[@id="product-search"]/div[1]/a[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65078/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e2a73bf04a800f0ad3e019294961da8
+2024-10-04 14:43:03 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:44:55 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:44:59 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:45:03 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:45:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:45:45 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:45:47 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:48:45 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:48:49 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:48:52 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:50:17 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:50:21 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:50:23 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:54:36 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:54:40 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:54:47 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:55:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:56:03 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:56:09 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:57:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:57:12 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:57:18 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:58:06 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:58:11 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:58:14 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:58:43 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:58:47 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:58:50 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 14:59:33 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 14:59:37 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 14:59:40 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 15:01:16 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 15:01:20 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 15:01:23 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 15:02:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 15:02:46 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 15:02:49 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 15:04:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 15:04:54 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 15:05:01 ERROR TC004_AddProductToWishList:42 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product-search"]/div[1]/a[2]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [649254ececa020f01659b0de0881d3ef, findElement {value=//*[@id="product-search"]/div[1]/a[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49607}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49607/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 649254ececa020f01659b0de0881d3ef
+2024-10-04 15:05:01 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 15:10:39 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-04 15:10:43 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 15:10:45 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!
+2024-10-04 16:34:59 INFO  TC001_AccountRegistrationTest:14 - ====Starting TC001_AccRegTest====
+2024-10-04 16:34:59 INFO  TC001_AccountRegistrationTest:20 - Clicked on Account Link
+2024-10-04 16:35:00 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
+2024-10-04 16:35:00 INFO  TC001_AccountRegistrationTest:28 - Providing customer details
+2024-10-04 16:35:03 INFO  TC001_AccountRegistrationTest:60 - Validating Expected Message..
+2024-10-04 16:35:03 INFO  TC001_AccountRegistrationTest:76 - TC001_AccountRegistrationTest is Execuited!!!
+2024-10-04 16:35:07 INFO  TC004_AddProductToWishList:20 - ====Starting TC004_LoginTest====
+2024-10-04 16:35:09 INFO  TC004_AddProductToWishList:47 - TC004_LoginTest is Execuited!!!

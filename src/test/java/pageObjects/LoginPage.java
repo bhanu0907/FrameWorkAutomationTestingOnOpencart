@@ -31,7 +31,7 @@ public class LoginPage extends BasePage {
 	
 	}
 	
-	public void logIN(String email, String passwoard) {
+	public void logIn(String email, String passwoard) {
 		HomePage homePage=new HomePage(driver);
 		
 		homePage.clickMyAccount();

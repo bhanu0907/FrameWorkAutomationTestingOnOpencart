@@ -23,8 +23,10 @@ public class HomePage extends BasePage{
 	//	By lnkMyAccount1Selector= By.xpath("//div[@id=\"top-links\"]//li[2]//span[1]");
 	//	WebElement lnkMyAccount1=driver.findElement(lnkMyAccount1Selector);
 	
+	@FindBy(xpath = "//div[@id='search']//input[@name=\"search\"]") WebElement searchBar;
 	
 	
+	@FindBy(xpath = "//div[@id=\"search\"]//button") WebElement clickTosearch;
 	public void clickMyAccount() {
 		lnkMyAccount.click();
 		
@@ -39,6 +41,15 @@ public class HomePage extends BasePage{
 	{
 		lnkLogin.click();
 		
+	}
+	
+	public void searchTheProduct(String product) {
+		searchBar.sendKeys(product);
+		
+	}
+	
+	public void clickToSearch() {
+		clickTosearch.click();
 	}
 	
 }

@@ -36,6 +36,7 @@ public class ExtentReportManager implements ITestListener {
 
 	public void onStart(ITestContext testContext) {
 		
+		
 		/*SimpleDateFormat df=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
 		Date dt=new Date();
 		String currentdatetimestamp=df.format(dt);
@@ -122,12 +123,12 @@ public class ExtentReportManager implements ITestListener {
 		  email.setDataSourceResolver(new DataSourceUrlResolver(url));
 		  email.setHostName("smtp.googlemail.com"); 
 		  email.setSmtpPort(465);
-		  email.setAuthenticator(new DefaultAuthenticator("pavanoltraining@gmail.com","password")); 
+		  email.setAuthenticator(new DefaultAuthenticator("prakash33350@gmail.com","password")); 
 		  email.setSSLOnConnect(true);
-		  email.setFrom("pavanoltraining@gmail.com"); //Sender
+		  email.setFrom("prakash33350@gmail.com"); //Sender
 		  email.setSubject("Test Results");
 		  email.setMsg("Please find Attached Report....");
-		  email.addTo("pavankumar.busyqa@gmail.com"); //Receiver 
+		  email.addTo("prakash33350@gmail.com"); //Receiver 
 		  email.attach(url, "extent report", "please check report..."); 
 		  email.send(); // send the email 
 		  }
