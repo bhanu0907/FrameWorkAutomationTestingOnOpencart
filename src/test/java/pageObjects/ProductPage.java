@@ -27,26 +27,26 @@ public class ProductPage extends BasePage{
 
 	public void addToWishList()
 	{
-//		ac=new Actions(driver);
-//		ac.scrollToElement(wishListButton).click().build().perform();
-//		System.out.println("clicked");
+		//ac=new Actions(driver);
+		//ac.scrollToElement(wishListButton).click().build().perform();
+		//System.out.println("clicked");
 
-				wishListButton.click();
-				System.out.println("clicked");
+		wishListButton.click();
+		System.out.println("clicked");
 
 	}
 
 	public void addToCart() {
-		//		ac=new Actions(driver);
-		//		ac.scrollToElement(addToCartButton).click().build().perform();
-		//	System.out.println("clicked");
+		//ac=new Actions(driver);
+		//ac.scrollToElement(addToCartButton).click().build().perform();
+		//System.out.println("clicked");
 
 		addToCartButton.click();
 	}
 
 	public boolean successfullyAddedToWishList() throws InterruptedException {
-		//		WebDriverWait driverWait=new WebDriverWait(driver, Duration.ofSeconds(5));
-		//		driverWait.until(ExpectedConditions.visibilityOf(successMsg));
+		//WebDriverWait driverWait=new WebDriverWait(driver, Duration.ofSeconds(5));
+		//driverWait.until(ExpectedConditions.visibilityOf(successMsg));
 		//Thread.sleep(4000);
 
 		//ac.scrollToElement(successMsg);

@@ -14,36 +14,33 @@ public class TC004_AddProductToWishList extends BaseClass {
 	ProductPage productPage;
 	HomePage homePage;
 
-	
+
 	@Test
 	public void addToWishList() {
 		logger.info("====Starting TC004_LoginTest====");
-		
+
 		try {
-		loginPage=new LoginPage(driver);
-		loginPage.logIn(properties.getProperty("email"), properties.getProperty("password"));
-		
-	
-		homePage=new HomePage(driver);
-		homePage.searchTheProduct(properties.getProperty("product"));
-		homePage.clickToSearch();
-		
-		productPage=new ProductPage(driver);
-		productPage.addToWishList();
-		
-		
-		boolean sucessWishlist=productPage.successfullyAddedToWishList();
-		
-		Assert.assertTrue(sucessWishlist);
-		
+			loginPage=new LoginPage(driver);
+			loginPage.logIn(properties.getProperty("email"), properties.getProperty("password"));
+
+			homePage=new HomePage(driver);
+			homePage.searchTheProduct(properties.getProperty("product"));
+			homePage.clickToSearch();
+
+			productPage=new ProductPage(driver);
+			productPage.addToWishList();
+
+			boolean sucessWishlist=productPage.successfullyAddedToWishList();
+
+			Assert.assertTrue(sucessWishlist);
+
 		}
-		
+
 		catch (Exception e) {
 			logger.error("Test Failed"+e.getMessage());
 			Assert.fail("Test Failed"+e.getMessage());
 		}
 		finally {
-			
 			logger.info("TC004_LoginTest is Execuited!!!");
 		}
 	}
