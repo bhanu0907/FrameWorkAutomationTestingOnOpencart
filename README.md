@@ -1,0 +1,1 @@
+The Selenium TestNG Framework is a robust and scalable test automation framework designed to simplify the process of writing and running automated tests for web applications. This framework leverages Selenium WebDriver for browser automation and TestNG for test management.
