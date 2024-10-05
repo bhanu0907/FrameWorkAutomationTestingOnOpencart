@@ -18,11 +18,16 @@ public class ProductPage extends BasePage{
 
 	//Actions ac;
 
-	@FindBy(xpath = "//*[@id=\"content\"]/div[3]//button[1]") WebElement addToCartButton;
+	@FindBy(xpath = "//*[@id='content']/div[3]//button[1]") WebElement buttonAddToCart;
 
-	@FindBy(xpath = "//*[@id=\"content\"]/div[3]//button[2]") WebElement wishListButton;
+	@FindBy(xpath = "//*[@id='content']/div[3]//button[2]") WebElement buttonWishList;
 
 	@FindBy(xpath = "//*[@id=\"product-search\"]/div[1]/a[2]") WebElement successMsg;
+
+	@FindBy(xpath = "//span[@id='cart-total']") WebElement btnCartItem;
+	//div[@id="cart"]
+
+	@FindBy(xpath = "//*[@id=\"cart\"]/ul/li[2]/div/p/a[1]/strong") WebElement btnViewCArt;
 
 
 	public void addToWishList()
@@ -31,7 +36,7 @@ public class ProductPage extends BasePage{
 		//ac.scrollToElement(wishListButton).click().build().perform();
 		//System.out.println("clicked");
 
-		wishListButton.click();
+		buttonWishList.click();
 		System.out.println("clicked");
 
 	}
@@ -41,7 +46,7 @@ public class ProductPage extends BasePage{
 		//ac.scrollToElement(addToCartButton).click().build().perform();
 		//System.out.println("clicked");
 
-		addToCartButton.click();
+		buttonAddToCart.click();
 	}
 
 	public boolean successfullyAddedToWishList() throws InterruptedException {
@@ -58,6 +63,15 @@ public class ProductPage extends BasePage{
 		//ac.scrollToElement(successMsg);
 
 		return (successMsg.getText().equals("shopping cart"));
+	}
+
+	public void clickOnCartItem() {
+		btnCartItem.click();
+
+	}
+
+	public void clickOnViewItem() {
+		btnViewCArt.click();
 	}
 
 }
