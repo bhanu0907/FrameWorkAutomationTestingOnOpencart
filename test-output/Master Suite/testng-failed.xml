@@ -7,14 +7,23 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+        <exclude name="Sanity"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testCases.TC007_OrderingTheProduct">
+      <class name="testCases.TC001_AccountRegistrationTest">
         <methods>
-          <include name="orederingTheProduct"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="verifyAccountRegistration"/>
         </methods>
-      </class> <!-- testCases.TC007_OrderingTheProduct -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      <class name="testCases.TC008_EndToEndTestOnOpenCart">
+        <methods>
+          <include name="endToEnd"/>
+        </methods>
+      </class> <!-- testCases.TC008_EndToEndTestOnOpenCart -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

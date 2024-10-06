@@ -16,7 +16,7 @@ public class TC008_EndToEndTestOnOpenCart extends BaseClass {
 
 	SoftAssert softAssert=new SoftAssert();
 
-	@Test
+	@Test(groups = {"Regression","Master"})
 	public void endToEnd() {
 		logger.info("====Starting TC008_EndToEndTestOnOpenCart====");
 

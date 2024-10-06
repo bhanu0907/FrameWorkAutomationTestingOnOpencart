@@ -41,7 +41,6 @@ public class AccountRegistrationPage extends BasePage{
 
 	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']") WebElement msgConfirmation;
 
-	
 
 	//Actions Methods
 
@@ -79,9 +78,6 @@ public class AccountRegistrationPage extends BasePage{
 	}
 
 	public void clickOnContinue() {
-
-
-
 		//Option 1
 		//	buttonContinue.click();
 
@@ -103,17 +99,16 @@ public class AccountRegistrationPage extends BasePage{
 	}
 
 	public void openCartAccountRegistration(String firstNAme, String lastName, String email, String telPhoneNum, String passWoard) {
-		AccountRegistrationPage registrationPage=new AccountRegistrationPage(driver);
-		registrationPage.setFirstName(firstNAme);
-		registrationPage.setLastNAme(lastName);
-		registrationPage.setEmail(email);
-		registrationPage.setTelephone(telPhoneNum);
-		registrationPage.setPassword(passWoard);
-		registrationPage.setConfirmPassword(passWoard);
-		registrationPage.selectAgreeCheckBox();
-		registrationPage.clickOnContinue();
 		
-		
+		setFirstName(firstNAme);
+		setLastNAme(lastName);
+		setEmail(email);
+		setTelephone(telPhoneNum);
+		setPassword(passWoard);
+		setConfirmPassword(passWoard);
+	    selectAgreeCheckBox();
+		clickOnContinue();
+				
 	}
 	
 	public String msgConfirmation() {

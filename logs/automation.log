@@ -479,3 +479,6 @@ Command: [90251da174a092599ad3b1da15574cd0, findElement {value=//*[@id="content"
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60514}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60514/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 90251da174a092599ad3b1da15574cd0
 2024-10-06 18:55:46 INFO  TC008_EndToEndTestOnOpenCart:94 - TC008_EndToEndTestOnOpenCart is Execuited!!!
+2024-10-06 19:10:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\grouping.xml
+

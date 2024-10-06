@@ -63,7 +63,6 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 	//	System.out.println("Sucess!!!");
 		}
 		
-		
 		catch(Exception e)
 		{
 			logger.error("Test Failed"+e.getMessage());

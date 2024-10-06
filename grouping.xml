@@ -26,6 +26,7 @@
     <classes>
       <class name="testCases.TC001_AccountRegistrationTest"/> 
       <class name="testCases.TC002_LoginTest"/> 
+      <class name="testCases.TC008_EndToEndTestOnOpenCart"></class>
       <!--<class name="testCases.TC003_LoginDDT"/>-->
     </classes>
   </test> <!-- Test -->
