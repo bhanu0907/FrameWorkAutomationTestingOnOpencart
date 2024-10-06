@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC006_ShippingEstimation">
+      <class name="testCases.TC007_OrderingTheProduct">
         <methods>
+          <include name="orederingTheProduct"/>
           <include name="tearDown"/>
-          <include name="applyingTheShippingEstimation"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testCases.TC006_ShippingEstimation -->
+      </class> <!-- testCases.TC007_OrderingTheProduct -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

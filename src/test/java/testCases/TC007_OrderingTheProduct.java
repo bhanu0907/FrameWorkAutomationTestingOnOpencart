@@ -9,13 +9,12 @@ import pageObjects.ProductPage;
 import pageObjects.ShoppingCartPage;
 import testBase.BaseClass;
 
-public class TC006_ShippingEstimation extends BaseClass {
+public class TC007_OrderingTheProduct extends BaseClass{
 
-	
+
 	@Test
-	public void applyingTheShippingEstimation() {
-		
-		logger.info("==== TC006_ShippingEstimation====");
+	public void	orederingTheProduct(){
+	logger.info("====TC007_OrderingTheProduct====");
 		
 		try {
 		LoginPage loginPage=new LoginPage(driver);
@@ -33,20 +32,10 @@ public class TC006_ShippingEstimation extends BaseClass {
 		ShoppingCartPage cartPage=new ShoppingCartPage(driver);
 		
 		cartPage.enterTheQuantity("2");
-//		cartPage.clickOnEstimateShipping();
-//		cartPage.selectCountry();
-//		cartPage.selectRegion();
-//		cartPage.enterPostCode();
-//		cartPage.clickOnGetQuotes();
-//		cartPage.selectFlatShipping();
-//		cartPage.clickOnApplyShipping();
 		cartPage.applySpipping();
-	
+		cartPage.clickOnCheckOutButton();
 		
-		
-		Assert.assertTrue(cartPage.verifyMsg());
 		}
-		
 		catch (Exception e) {
 			logger.error("Test Failed"+e.getMessage());
 			Assert.fail("Test Failed"+e.getMessage());
@@ -54,9 +43,8 @@ public class TC006_ShippingEstimation extends BaseClass {
 		finally {
 			logger.info("TC006_ShippingEstimation is Execuited!!!");
 		}
-		
-		
+
+
 	}
-	
-	
+
 }

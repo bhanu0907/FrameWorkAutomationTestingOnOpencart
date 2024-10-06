@@ -27,8 +27,9 @@ public class ProductPage extends BasePage{
 	@FindBy(xpath = "//span[@id='cart-total']") WebElement btnCartItem;
 	//div[@id="cart"]
 
-	@FindBy(xpath = "//*[@id=\"cart\"]/ul/li[2]/div/p/a[1]/strong") WebElement btnViewCArt;
+	@FindBy(xpath = "//div[@id='top-links']/ul/li[4]//span") WebElement lnkShoppingCart;
 
+	@FindBy(xpath = "//div[@id=\"cart\"]/ul") WebElement windowViewCArt;
 
 	public void addToWishList()
 	{
@@ -65,13 +66,22 @@ public class ProductPage extends BasePage{
 		return (successMsg.getText().equals("shopping cart"));
 	}
 
-	public void clickOnCartItem() {
+	public void clickOnCartItem() throws InterruptedException {
+		System.out.println("try");
+		//Thread.sleep(1000);
 		btnCartItem.click();
+		System.out.println("Clicked");
 
 	}
 
-	public void clickOnViewItem() {
-		btnViewCArt.click();
+	public void clickShoppingCart() {
+		//driver.switchTo().frame(windowViewCArt);
+		//driver.switchTo().activeElement();
+		
+		lnkShoppingCart.click();
+		System.out.println("ShoppingCart");
 	}
+	
+	
 
 }

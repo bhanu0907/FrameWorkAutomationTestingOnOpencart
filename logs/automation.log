@@ -1,66 +1,464 @@
-2024-10-05 00:05:27 INFO  Utils:112 - [TestNG] Running:
+2024-10-06 09:58:46 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
 
-2024-10-05 00:05:34 INFO  TC005_AddProductToCart:16 - ====TC005_AddProductToCart====
-2024-10-05 00:05:41 ERROR TC005_AddProductToCart:36 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div[3]//button[1]"}
+2024-10-06 09:58:52 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 09:58:54 ERROR TC006_ShippingEstimation:51 - Test Failedno such frame
   (Session info: chrome=129.0.6668.90)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4069c15e804e3c907a386fcb2ddd736e, findElement {value=//*[@id="content"]/div[3]//button[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62028/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4069c15e804e3c907a386fcb2ddd736e
-2024-10-05 00:05:41 INFO  TC005_AddProductToCart:40 - TC005_AddProductToCart is Execuited!!!
-2024-10-05 00:14:11 INFO  Utils:112 - [TestNG] Running:
+Command: [73aba31548ddf354afb034ae0082fcbe, switchToFrame {id={element-6066-11e4-a52e-4f735466cecf=f.8F8EBF2671423C608176A1BD12E46430.d.A734C24E6A788C76274FFA1DFF733B45.e.104}}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59115}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59115/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73aba31548ddf354afb034ae0082fcbe
+2024-10-06 09:58:54 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 10:01:58 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
 
-2024-10-05 00:14:15 INFO  TC005_AddProductToCart:16 - ====TC005_AddProductToCart====
-2024-10-05 00:14:22 ERROR TC005_AddProductToCart:36 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='content']/div[3]//button[1]"}
-  (Session info: chrome=129.0.6668.90)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7954b17da670f53b807b1ca4c1240e6c, findElement {value=//*[@id='content']/div[3]//button[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62191/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7954b17da670f53b807b1ca4c1240e6c
-2024-10-05 00:14:22 INFO  TC005_AddProductToCart:40 - TC005_AddProductToCart is Execuited!!!
-2024-10-05 00:15:31 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
-
-2024-10-05 00:15:36 INFO  TC005_AddProductToCart:16 - ====TC005_AddProductToCart====
-2024-10-05 00:15:39 INFO  TC005_AddProductToCart:40 - TC005_AddProductToCart is Execuited!!!
-2024-10-05 13:24:43 INFO  TC005_AddProductToCart:16 - ====TC005_AddProductToCart====
-2024-10-05 13:24:46 INFO  TC005_AddProductToCart:40 - TC005_AddProductToCart is Execuited!!!
-2024-10-05 13:28:23 INFO  TC005_AddProductToCart:16 - ====TC005_AddProductToCart====
-2024-10-05 13:28:25 INFO  TC005_AddProductToCart:40 - TC005_AddProductToCart is Execuited!!!
-2024-10-05 14:09:28 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
-
-2024-10-05 14:09:32 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
-2024-10-05 14:09:40 ERROR TC006_ShippingEstimation:51 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"input[name="quantity[187952]"]"}
-  (Session info: chrome=129.0.6668.90)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e1ea072b3362473f8dfdabc0568a5298, findElement {value=input[name="quantity[187952]"], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56922/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e1ea072b3362473f8dfdabc0568a5298
-2024-10-05 14:09:40 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
-2024-10-05 16:05:15 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
-
-2024-10-05 16:05:20 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
-2024-10-05 16:05:23 ERROR TC006_ShippingEstimation:51 - Test Failedstale element reference: stale element not found in the current frame
+2024-10-06 10:02:02 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 10:02:04 ERROR TC006_ShippingEstimation:51 - Test Failedstale element reference: stale element not found in the current frame
   (Session info: chrome=129.0.6668.90)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cba38f5b18638ee05348604ac4a2fb00, clickElement {id=f.D8A8C67706EEC257258ED2E63FAB3F78.d.E6243A618BAB9BA8A801C74B779A3143.e.101}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57701/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (cba38f5b18638ee05348604ac4a2fb00)] -> xpath: //*[@id="cart"]/ul/li[2]/div/p/a[1]/strong]
-Session ID: cba38f5b18638ee05348604ac4a2fb00
-2024-10-05 16:05:23 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+Command: [56c9c6127baa2f08f1cb2411e57c373a, clickElement {id=f.ACEF6F522ADAF399A4783021E15B8D02.d.44C85F7D4E9B18DEED23C3FB292BB4C1.e.100}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59227}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59227/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (56c9c6127baa2f08f1cb2411e57c373a)] -> xpath: //span[@id='cart-total']]
+Session ID: 56c9c6127baa2f08f1cb2411e57c373a
+2024-10-06 10:02:04 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 10:05:24 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 10:05:28 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 10:05:31 ERROR TC006_ShippingEstimation:51 - Test Failedstale element reference: stale element not found in the current frame
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a183dee0fb9f1d00e684d2a6dcf11091, clickElement {id=f.D74B13D520D6AED1F65D0382B580611E.d.E11A897C437D01DFD15A9B9AC3E75473.e.107}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59343/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a183dee0fb9f1d00e684d2a6dcf11091)] -> xpath: //*[@id="cart"]/ul/li[2]/div/p/a[1]/strong]
+Session ID: a183dee0fb9f1d00e684d2a6dcf11091
+2024-10-06 10:05:31 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 10:06:41 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 10:06:45 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 10:06:47 ERROR TC006_ShippingEstimation:51 - Test Failedstale element reference: stale element not found in the current frame
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [706610d4991aacebeb2ed410441a91d6, clickElement {id=f.B86B13A0C8AE92C3BA5BF56B76F7B03C.d.59A316DB50794EBB2B5124AB597CABD7.e.103}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59402}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59402/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (706610d4991aacebeb2ed410441a91d6)] -> xpath: //span[@id='cart-total']]
+Session ID: 706610d4991aacebeb2ed410441a91d6
+2024-10-06 10:06:47 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 10:21:22 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 10:21:26 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 10:21:29 ERROR TC006_ShippingEstimation:51 - Test Failedstale element reference: stale element not found in the current frame
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f0709b2bbba8e1fd9f9acc25cbe5ae4, clickElement {id=f.DE2974B7C8C6A9E77CB4813FD84935F8.d.331EA1B569F2C00CA499A15A5DB020E5.e.106}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59822}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59822/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5f0709b2bbba8e1fd9f9acc25cbe5ae4)] -> xpath: //*[@id="cart"]/ul/li[2]/div/p/a[1]/strong]
+Session ID: 5f0709b2bbba8e1fd9f9acc25cbe5ae4
+2024-10-06 10:21:29 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 10:38:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 10:41:00 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 10:41:04 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 10:41:12 ERROR TC006_ShippingEstimation:51 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"input[name="quantity[187952]"]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [645ae9ceba77dfa5f2774615e22c6526, findElement {using=xpath, value=input[name="quantity[187952]"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60395}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60395/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 645ae9ceba77dfa5f2774615e22c6526
+2024-10-06 10:41:12 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 10:52:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 10:52:12 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 10:52:19 ERROR TC006_ShippingEstimation:51 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"input[name="quantity[187952]"]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93f230884f4e3c2f531a7c2f4194cca8, findElement {value=input[name="quantity[187952]"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60771/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 93f230884f4e3c2f531a7c2f4194cca8
+2024-10-06 10:52:19 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 10:54:48 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 10:54:52 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 10:55:00 ERROR TC006_ShippingEstimation:51 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="content"]/form"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [929c496a9419f0b28949245feb2c8ed1, findElement {using=xpath, value=//div[@id="content"]/form}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60869}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60869/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 929c496a9419f0b28949245feb2c8ed1
+2024-10-06 10:55:00 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 11:19:07 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 11:19:12 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 11:19:14 ERROR TC006_ShippingEstimation:51 - Test Failedstale element reference: stale element not found in the current frame
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [542d9c8b93c4d8640a98faf17026c2f3, clickElement {id=f.77C87DB9C7AB384AC89C3B3419D60365.d.D25B1CBDF1D6F093486AE4CEE698AD79.e.103}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61566}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61566/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (542d9c8b93c4d8640a98faf17026c2f3)] -> xpath: //span[@id='cart-total']]
+Session ID: 542d9c8b93c4d8640a98faf17026c2f3
+2024-10-06 11:19:14 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 11:20:31 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 11:20:36 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 11:20:40 ERROR TC006_ShippingEstimation:51 - Test Failedno such frame
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fca1c72f1b3f99acd16c8f82d224564f, switchToFrame {id={element-6066-11e4-a52e-4f735466cecf=f.9CBF1DDFDCE18E26B5A9941E290ED895.d.3B81AFD8820CD80AC6A3C620C1824C33.e.111}}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61628/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fca1c72f1b3f99acd16c8f82d224564f
+2024-10-06 11:20:40 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 11:21:22 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 11:21:26 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 11:21:29 ERROR TC006_ShippingEstimation:51 - Test Failedno such frame
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e84f699fc8177ac50c18a134e6965986, switchToFrame {id={element-6066-11e4-a52e-4f735466cecf=f.AFA7F05D6BC47247A7B0B56769EDEC79.d.D0BB828833837089E66845D27AA1709B.e.132}}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61677/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e84f699fc8177ac50c18a134e6965986
+2024-10-06 11:21:29 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 11:22:53 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 11:22:57 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 11:23:04 ERROR TC006_ShippingEstimation:51 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"input[name="quantity[187952]"]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f923790804bf80bdea588a4a4f4a33b, findElement {value=input[name="quantity[187952]"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61740}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61740/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f923790804bf80bdea588a4a4f4a33b
+2024-10-06 11:23:04 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 11:25:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 11:25:48 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 11:25:56 ERROR TC006_ShippingEstimation:51 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[name="quantity[187952]"]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [90d9a18d657ec32d16e17209f9a33ac8, findElement {value=//input[name="quantity[187952]"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61840}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61840/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90d9a18d657ec32d16e17209f9a33ac8
+2024-10-06 11:25:56 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 11:26:45 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 11:26:49 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 11:26:56 ERROR TC006_ShippingEstimation:51 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[name='quantity[187952]']"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b7620a9153c19958d22df552b2e5013, findElement {using=xpath, value=//input[name='quantity[187952]']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61894/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b7620a9153c19958d22df552b2e5013
+2024-10-06 11:26:56 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 11:29:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 11:29:46 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 11:29:53 ERROR TC006_ShippingEstimation:51 - Test Failedno such element: Unable to locate element: {"method":"css selector","selector":"input[name="quantity[188630]"]"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e17c9bb9244614c0d19de02cb6648fc, findElement {value=input[name="quantity[188630]"], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61997}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61997/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e17c9bb9244614c0d19de02cb6648fc
+2024-10-06 11:29:53 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 11:32:20 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 11:32:24 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 11:32:33 ERROR TC006_ShippingEstimation:51 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"button-shipping"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cca6f5c8b048d3ba6afa0b4604b4975e, findElement {using=xpath, value=button-shipping}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62092}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62092/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cca6f5c8b048d3ba6afa0b4604b4975e
+2024-10-06 11:32:33 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 12:29:05 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 12:29:09 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 12:29:18 ERROR TC006_ShippingEstimation:51 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"button-shipping"}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87020dd13bba3de862559646dd3966fe, findElement {value=button-shipping, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62345}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62345/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87020dd13bba3de862559646dd3966fe
+2024-10-06 12:29:18 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 12:31:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 12:31:41 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 12:31:45 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 12:32:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 12:33:02 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 12:33:06 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 12:35:43 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 12:35:47 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 12:35:51 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 12:37:23 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 12:37:27 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 12:37:31 ERROR TC006_ShippingEstimation:51 - Test Failedinvalid selector
+from javascript error: {"status":32,"value":"The result of the xpath expression \"//*[@id=\"checkout-cart\"]/div[1]/text()\" is: [object Text]. It should be an element."}
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed8f96fd5eeb695663a7af7a61fba1c0, findElement {using=xpath, value=//*[@id="checkout-cart"]/div[1]/text()}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62647}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62647/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed8f96fd5eeb695663a7af7a61fba1c0
+2024-10-06 12:37:31 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 12:42:18 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 12:42:22 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 12:42:26 INFO  TC006_ShippingEstimation:54 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\Temp\testng-eclipse-442329454\testng-customsuite.xml
+
+2024-10-06 12:54:58 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2024-10-06 12:54:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@53dacd14: 78 ms
+2024-10-06 12:54:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@31e4bb20: 18 ms
+2024-10-06 12:54:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@5b1f29fa: 14 ms
+2024-10-06 12:54:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1e7aa82b: 12 ms
+2024-10-06 12:54:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@549949be: 10 ms
+2024-10-06 12:54:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4b3a45f1: 0 ms
+2024-10-06 12:55:09 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 12:55:13 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 12:55:16 INFO  TC006_ShippingEstimation:54 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 13:04:52 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 13:04:56 INFO  TC006_ShippingEstimation:18 - ====TC005_AddProductToCart====
+2024-10-06 13:04:59 INFO  TC006_ShippingEstimation:54 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 13:25:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 13:25:07 INFO  TC006_ShippingEstimation:18 - ==== TC006_ShippingEstimation====
+2024-10-06 13:25:11 INFO  TC006_ShippingEstimation:55 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 13:26:33 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 13:26:37 INFO  TC007_OrderingTheProduct:17 - ====TC007_OrderingTheProduct====
+2024-10-06 13:26:42 ERROR TC007_OrderingTheProduct:41 - Test Failedstale element reference: stale element not found
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8926fb85f13b66ceb6f1354eec936b9b, clickElement {id=f.1B42C1897FB49296AAB3F43AA9290FDC.d.1FA73EAC387C0DE0C1795608AE2B3205.e.156}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63901/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8926fb85f13b66ceb6f1354eec936b9b)] -> css selector: a[class="btn btn-primary"]]
+Session ID: 8926fb85f13b66ceb6f1354eec936b9b
+2024-10-06 13:26:42 INFO  TC007_OrderingTheProduct:45 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 13:31:39 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:39 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-10-06 13:31:39 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:39 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:39 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:39 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:39 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:39 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:39 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2024-10-06 13:31:39 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\Temp\testng-eclipse--129098759\testng-customsuite.xml
+
+2024-10-06 13:31:40 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2024-10-06 13:31:40 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@53dacd14: 86 ms
+2024-10-06 13:31:40 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@31e4bb20: 19 ms
+2024-10-06 13:31:40 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@5b1f29fa: 14 ms
+2024-10-06 13:31:40 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1e7aa82b: 14 ms
+2024-10-06 13:31:40 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@549949be: 10 ms
+2024-10-06 13:31:40 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4b3a45f1: 0 ms
+2024-10-06 13:31:47 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 13:31:52 INFO  TC007_OrderingTheProduct:17 - ====TC007_OrderingTheProduct====
+2024-10-06 13:31:56 ERROR TC007_OrderingTheProduct:40 - Test Failedstale element reference: stale element not found
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e594b2fa5f4b453958d4c888bdaa7f9c, clickElement {id=f.AA83091CB980663B1CB033ED623E776B.d.D94F502C099EF7D73831C5CFB84D156B.e.157}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64067/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e594b2fa5f4b453958d4c888bdaa7f9c)] -> css selector: a[class='btn btn-primary']]
+Session ID: e594b2fa5f4b453958d4c888bdaa7f9c
+2024-10-06 13:31:56 INFO  TC007_OrderingTheProduct:44 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 13:33:57 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 13:34:01 INFO  TC007_OrderingTheProduct:17 - ====TC007_OrderingTheProduct====
+2024-10-06 13:34:04 ERROR TC007_OrderingTheProduct:40 - Test FailedYou may not select an option in disabled select
+2024-10-06 13:34:04 INFO  TC007_OrderingTheProduct:44 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 13:35:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 13:35:55 INFO  TC007_OrderingTheProduct:17 - ====TC007_OrderingTheProduct====
+2024-10-06 13:35:59 ERROR TC007_OrderingTheProduct:40 - Test Failedstale element reference: stale element not found
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c21a115638d409d1e03ad9976118191f, clickElement {id=f.8D60A7463E56B7015658944E6A3DEAE3.d.D51806479C60B0817D50146AA89745DD.e.156}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64222/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c21a115638d409d1e03ad9976118191f)] -> css selector: a[class='btn btn-primary']]
+Session ID: c21a115638d409d1e03ad9976118191f
+2024-10-06 13:35:59 INFO  TC007_OrderingTheProduct:44 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 13:37:43 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 13:37:47 INFO  TC007_OrderingTheProduct:17 - ====TC007_OrderingTheProduct====
+2024-10-06 13:37:52 ERROR TC007_OrderingTheProduct:40 - Test Failedstale element reference: stale element not found
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28b46818c4bc24b96e864649e93617e0, clickElement {id=f.4510D4F2B05E770D4A5B071B7934CBB1.d.B285AA0F5212073787B3478363858B9A.e.160}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64295/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28b46818c4bc24b96e864649e93617e0)] -> xpath: //*[@id="content"]/div[3]/div[2]/a]
+Session ID: 28b46818c4bc24b96e864649e93617e0
+2024-10-06 13:37:52 INFO  TC007_OrderingTheProduct:44 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 13:38:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 13:39:02 INFO  TC007_OrderingTheProduct:17 - ====TC007_OrderingTheProduct====
+2024-10-06 13:39:07 ERROR TC007_OrderingTheProduct:40 - Test Failedstale element reference: stale element not found
+  (Session info: chrome=129.0.6668.90)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6559a1212d7e233e382d3585335ba042, clickElement {id=f.C2FBFFB827692FED5E4AD7478AD79277.d.D641C7D93B36B7A45E0BA73FD6936A88.e.152}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64353/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6559a1212d7e233e382d3585335ba042)] -> xpath: //*[@id="content"]/div[3]/div[2]/a]
+Session ID: 6559a1212d7e233e382d3585335ba042
+2024-10-06 13:39:07 INFO  TC007_OrderingTheProduct:44 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 13:42:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 13:42:50 INFO  TC007_OrderingTheProduct:17 - ====TC007_OrderingTheProduct====
+2024-10-06 13:42:55 INFO  TC007_OrderingTheProduct:44 - TC006_ShippingEstimation is Execuited!!!
+2024-10-06 13:44:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\AutomationTestingOnOpencart\master.xml
+
+2024-10-06 13:44:41 INFO  TC007_OrderingTheProduct:17 - ====TC007_OrderingTheProduct====
+2024-10-06 13:44:46 INFO  TC007_OrderingTheProduct:44 - TC006_ShippingEstimation is Execuited!!!
