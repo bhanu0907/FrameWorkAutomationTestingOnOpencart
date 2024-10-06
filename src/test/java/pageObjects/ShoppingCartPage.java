@@ -38,7 +38,7 @@ public class ShoppingCartPage extends BasePage{
 	@FindBy(xpath = "//div[@id=\"content\"]/form") WebElement frameShoppingCArt ;
 
 	@FindBy(xpath="//*[@id=\"content\"]/div[3]/div[2]/a") WebElement buttonCheckout;
-	
+
 	public void enterTheQuantity(String quantity) {
 		//driver.switchTo().frame(frameShoppingCArt);
 		txtQuantity.sendKeys(quantity);
@@ -80,43 +80,42 @@ public class ShoppingCartPage extends BasePage{
 	public void clickOnApplyShipping() {
 		buttonApplyShipping.click();
 		System.out.println("Shipped");
-		
+
 	}
 
 
 	public boolean verifyMsg() {
-		
+
 		return successMsgCheckOut.isDisplayed();
 	}
-	
+
 	public void clickOnCheckOutButton() throws InterruptedException {
 		Actions actions=new Actions(driver);
 		actions.scrollToElement(buttonCheckout).perform();
 		buttonCheckout.click();
-		
-		
-//		System.out.println("not clicked");
-//		buttonCheckout.click();
-//		System.out.println("clicked");
-//		Thread.sleep(3000);
-//		System.out.println("yes clicked");
-		
+
+
+		//		System.out.println("not clicked");
+		//		buttonCheckout.click();
+		//		System.out.println("clicked");
+		//		Thread.sleep(3000);
+		//		System.out.println("yes clicked");
+
 	}
-	
-	
-	
+
+
+
 	public void applySpipping() {
-		ShoppingCartPage cartPage=new ShoppingCartPage(driver);
 		//cartPage.enterTheQuantity("2");
-		cartPage.clickOnEstimateShipping();
-		cartPage.selectCountry();
-		cartPage.selectRegion();
-		cartPage.enterPostCode();
-		cartPage.clickOnGetQuotes();
-		cartPage.selectFlatShipping();
-		cartPage.clickOnApplyShipping();
-		
-	
+		clickOnEstimateShipping();
+		selectCountry();
+		selectRegion();
+		enterPostCode();
+		clickOnGetQuotes();
+		selectFlatShipping();
+		clickOnApplyShipping();
+
+
 	}
 
 

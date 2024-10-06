@@ -82,6 +82,11 @@ public class ProductPage extends BasePage{
 		System.out.println("ShoppingCart");
 	}
 	
+	public void addProductToCart() {
+		
+		
+		
+	}
 	
 
 }

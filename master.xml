@@ -3,27 +3,25 @@
 
 
 <suite name="Master Suite">
- 
-  <listeners>
-	  <listener class-name="utilities.ExtentReportManager" />
-  </listeners>
-  
-  <test thread-count="5" name="Test">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
-     
-    <classes>
-  <!--      <class name="testCases.TC001_AccountRegistrationTest"/>
-       <class name="testCases.TC004_AddProductToWishList"/>
-       <class name="testCases.TC005_AddProductToCart"></class>
-       <class name="testCases.TC006_ShippingEstimation"></class>-->
-       
-        <class name="testCases.TC007_OrderingTheProduct"></class>
-   
-  <!--    <class name="testCases.TC002_LoginTest"/> 
-  <class name="testCases.TC001_AccountRegistrationTest"/>
-       <class name="testCases.TC003_LoginDDT"/> -->
-       
-    </classes>
-  </test> <!-- Test -->
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<!-- <class name="testCases.TC001_AccountRegistrationTest"/> <class name="testCases.TC004_AddProductToWishList"/> 
+				<class name="testCases.TC005_AddProductToCart"></class> <class name="testCases.TC006_ShippingEstimation"></class> 
+			<class name="testCases.TC007_OrderingTheProduct"></class> -->
+
+			<class name="testCases.TC008_EndToEndTestOnOpenCart"></class>
+
+			<!-- <class name="testCases.TC002_LoginTest"/> <class name="testCases.TC001_AccountRegistrationTest"/> 
+				<class name="testCases.TC003_LoginDDT"/> -->
+
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

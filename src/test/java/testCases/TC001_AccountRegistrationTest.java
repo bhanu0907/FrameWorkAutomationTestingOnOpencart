@@ -42,7 +42,6 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		registrationPage.setTelephone(randomTelNumber());
 		
 	
-
 		//registrationPage.setPassword("passwoard@123");
 		//registrationPage.setConfirmPassword("passwoard@123");
 
@@ -52,7 +51,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		registrationPage.setConfirmPassword(passWoard);
 		System.out.println(passWoard);
 
-		registrationPage.selectCheckBox();
+		registrationPage.selectAgreeCheckBox();
 		registrationPage.clickOnContinue();
 
 		

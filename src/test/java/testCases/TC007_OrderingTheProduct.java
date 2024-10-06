@@ -10,8 +10,7 @@ import pageObjects.ShoppingCartPage;
 import testBase.BaseClass;
 
 public class TC007_OrderingTheProduct extends BaseClass{
-
-
+	
 	@Test
 	public void	orederingTheProduct(){
 	logger.info("====TC007_OrderingTheProduct====");

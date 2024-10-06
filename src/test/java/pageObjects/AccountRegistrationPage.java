@@ -73,7 +73,7 @@ public class AccountRegistrationPage extends BasePage{
 
 	}
 
-	public void selectCheckBox() {
+	public void selectAgreeCheckBox() {
 		chkdBox.click();
 
 	}
@@ -102,6 +102,20 @@ public class AccountRegistrationPage extends BasePage{
 		
 	}
 
+	public void openCartAccountRegistration(String firstNAme, String lastName, String email, String telPhoneNum, String passWoard) {
+		AccountRegistrationPage registrationPage=new AccountRegistrationPage(driver);
+		registrationPage.setFirstName(firstNAme);
+		registrationPage.setLastNAme(lastName);
+		registrationPage.setEmail(email);
+		registrationPage.setTelephone(telPhoneNum);
+		registrationPage.setPassword(passWoard);
+		registrationPage.setConfirmPassword(passWoard);
+		registrationPage.selectAgreeCheckBox();
+		registrationPage.clickOnContinue();
+		
+		
+	}
+	
 	public String msgConfirmation() {
 
 		try {
