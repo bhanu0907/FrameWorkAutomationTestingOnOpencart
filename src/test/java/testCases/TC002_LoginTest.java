@@ -10,7 +10,6 @@ import testBase.BaseClass;
 
 public class TC002_LoginTest extends BaseClass{
 
-	
 	@Test(groups = {"Sanity","Master"})
 	public void verify_login()
 	{
@@ -48,7 +47,6 @@ public class TC002_LoginTest extends BaseClass{
 			Assert.fail("Test Failed"+e.getMessage());
 		}
 		finally {
-			
 			logger.info("TC002_LoginTest is Execuited!!!");
 		}
 
